@@ -55,5 +55,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <button type="submit" class="btn">Actualizar</button>
     </form>
 </div>
+    <a href="../index.php" class="volver">&larr; Volver al Inicio</a>
 </body>
 </html>

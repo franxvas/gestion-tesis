@@ -51,3 +51,15 @@ tr:nth-child(even) {
     opacity: 0.85;
 }
 
+.volver {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 15px;
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.volver:hover {
+    background-color: #5a6268;
+}

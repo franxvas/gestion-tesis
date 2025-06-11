@@ -42,6 +42,8 @@
         </tbody>
     </table>
 </div>
+    <a href="../index.php" class="volver">&larr; Volver al Inicio</a>
+
 </body>
 </html>
 

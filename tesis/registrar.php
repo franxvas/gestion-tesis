@@ -52,6 +52,8 @@
         <button type="submit" class="btn">Registrar</button>
     </form>
 </div>
+    <a href="../index.php" class="volver">&larr; Volver al Inicio</a>
+
 </body>
 </html>
 
