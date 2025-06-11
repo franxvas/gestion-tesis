@@ -63,6 +63,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bind_param("sssssssi", $_POST["titulo"], $_POST["linea_investigacion"], $_POST["resumen"],
         $_POST["objetivos"], $_POST["fecha_inicio"], $_POST["fecha_fin"], $_POST["estado"], $_POST["id_tesista"]);
     $stmt->execute();
-    echo "<script>alert('Tesis registrada correctamente'); window.location='listar.php';</script>";
+    echo "<script>alert('tesis registrada correctamente'); window.location='listar.php';</script>";
 }
 ?>
