@@ -1,5 +1,4 @@
 *.log
-*.sql
 vendor/
 node_modules/
 .env
