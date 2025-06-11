@@ -32,7 +32,10 @@
                 <td>{$row['dni']}</td>
                 <td>{$row['escuela_profesional']}</td>
                 <td>{$row['estado']}</td>
-                <td><a href='editar.php?id={$row['id']}' class='btn btn-warning'>Editar</a></td>
+                <td>
+                <a href='editar.php?id={$row['id']}' class='btn btn-warning'>Editar</a>
+                <a href='eliminar.php?id={$row['id']}' class='btn btn-danger' onclick=\"return confirm('seguro que deseas eliminar este registro?')\">Eliminar</a>
+                </td>
             </tr>";
         }
         ?>
